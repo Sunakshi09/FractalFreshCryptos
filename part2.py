@@ -53,3 +53,12 @@ def arb_longest_string(*args):
       long = len(a)
       longest = a
   return longest
+
+
+arb_args("Hello", "Sunakshi")
+inner_func(5, 2)
+lunch_lady("Sunakshi", "Pasta")
+sum_n_product(5, 7)
+print(arb_longest_string("Which", "is", "the", "longest", "string?"))
+print("Test")
+print(arb_longest_string("this is a string"))
